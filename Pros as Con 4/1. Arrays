@@ -1,0 +1,26 @@
+Arrays – collection data type using date (usually scaler data) with an index
+Hash – Collection data type using data and a key. Set up like hash_name = { :blank => “Thing and thing”}
+Add items to an Array 
+Ex: array_name << “element” (shovel method)
+Add to end of Array with .push 
+Ex: array_name.push(“element”)
+This will add it to the end of the is t of elements
+Add to beginning with .unshift 
+Ex: array_name.unshift (“element”)
+Puts this element at the beingining of the array in index 0 spot
+Remove items from array
+How to removed item from last index spot on array is .pop
+Ex: array_name.pop  - whatever is at the end is popped off
+To remove from front you use .shift 
+Ex: array_name.shift – whatever is in index 0 gets shifted out
+To delete anywhere in index use .delete_at(?0?)
+Ex: array_name.delete_at(2) – will delete index item number 2 
+Retrieve items from array 
+Just put index name , and enclose index number for item in brackets 
+Ex: Array_name[2] – will return data that is placed in the index spot 2 *index is always one less than count**indexs can also be used with negative index numbers. -1 is the last index item. 
+Identify array based on index number 
+All you have to do to find the index number of an item in an array is type the array name add .indec and in parenthesis put the element 
+Ex: array_name.index(“element”) this will give you the datas index number, if no elements match it returns nil
+Update an array value in one input
+You just have to type out the arrays name with index number in brackets, set it equal to another scaler type and that index number will be overwritten 
+Ex: array_name[2] = “yoo-hoo” – this will overwrite whatever element was contained at index 2 and turn it into  “yoo-hoo”
