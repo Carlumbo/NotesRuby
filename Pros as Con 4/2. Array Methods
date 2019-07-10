@@ -1,0 +1,22 @@
+Array Methods:
+Sort an Array – used to rearrange contents of an array into a certain order. 
+Ex: strings would be alpha, numerical values would be from smallest to largest. 	
+Its an auto sort function using .sort
+Ex: array_name.sort – this would sort strings into alpha and numbers into ascending 
+This is not permanent, but you can assign a variable to it. Ex: sorted_array = array_name.sort 
+This will give you two copies of the same array one sorted, one not 
+Reverse an Array – puts array in opposite order using .reverse instead of .sort
+Ex. Array_name.reverse 
+First and last element finder
+Using .first and .last will return the first and last element respectfully
+EX: array_name.first  => element at index 0, array_name.last => element at index -1 
+***does not change original array***
+
+Find out if an element is in an array
+for this you use the .include? note the ? , you are gonna then put your query Inside of a parenthesis as a string. This will return true or false if that element is inside of your array. 
+Ex. array_name.include?(“element”) => true/false 
+
+Finding size of an array 
+Sometimes youll need to know the size of an array. Adding .size at the end will return the number of elements in the array. All methods are case sensitive. 
+Ex: array_name.size => 3 (will return 3 elements if there are a3 elements 4 if 4 and so on)
+Additional: Ruby docs Array
